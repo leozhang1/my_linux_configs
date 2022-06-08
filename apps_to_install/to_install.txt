@@ -1,0 +1,15 @@
+gthumb
+gromit-mpx
+postman
+discord
+chrome
+vscode
+github-desktop
+spotify
+droidcam
+timeshift
+libreoffice-fresh
+zoom
+xppentablet
+unityhub
+
