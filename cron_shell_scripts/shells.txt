@@ -1,0 +1,24 @@
+# begin change_desktop_pic.sh
+# !/bin/bash
+picName=$1
+gsettings set org.gnome.desktop.background picture-uri-dark file://$picName
+# end change_desktop_pic.sh
+
+
+# begin cron_10_22.sh
+# display may or may not be :1
+# need to echo $DISPLAY in the shell to find out
+python_abs_path=''
+export DISPLAY=:1 && $python_abs_path [PATH_TO_BOT1.py]
+# end cron_10_22.sh
+
+
+# begin cron_9-17.sh
+python_abs_path=''
+$python_abs_path /home/leo_zhang/Documents/GitHub/NewsScraper/NewsScraper.py
+$python_abs_path /home/leo_zhang/Documents/GitHub/GetDailyPic/get_daily_pic.py
+$python_abs_path /home/leo_zhang/Documents/GitHub/FlightScraper/FlightScraper.py
+# end cron_9-17.sh
+
+
+
