@@ -1,0 +1,43 @@
+https://www.reddit.com/r/EndeavourOS/comments/sil1jg/gnome_version_average_users_to_do_list_after/
+
+# bluetooth install
+https://discovery.endeavouros.com/bluetooth/bluetooth/2021/03/
+sudo pacman -S --needed bluez bluez-utils
+sudo systemctl enable bluetooth
+sudo systemctl enable --now bluetooth
+
+endeavour os nice-to-haves:
+https://www.youtube.com/watch?v=StHVU-Zvacs&t=321s
+https://www.youtube.com/watch?v=8ORIVRKZnwQ
+
+vs code:
+https://linuxhint.com/install_visual_studio_code_arch_linux/
+
+yay
+yay -S asusctl
+
+systemctl start asusd
+# cycle between backlight modes
+asusctl -n
+
+language input:
+https://slmeng.medium.com/how-to-install-chinese-fonts-and-input-method-in-arch-linux-18b68d2817e7
+https://www.youtube.com/watch?v=a1J0Z9j4YHU
+https://www.youtube.com/watch?v=poXvZt9iBV0
+
+extensions:
+Dash to Dock for COSMIC
+Desktop Icons NG (DING)
+
+for pop_shell tiling manager:
+yay -S gnome-shell-extension-pop-shell-git
+
+5 linux terminal apps you need to have:
+https://www.youtube.com/watch?v=E8Ww39z_28A
+
+installing a customizable terminal:
+yay -S tilix
+https://forum.endeavouros.com/t/im-not-sure-how-to-enable-transparency-on-gnome-terminal/22575
+https://gnunn1.github.io/tilix-web/manual/vteconfig/
+
+
