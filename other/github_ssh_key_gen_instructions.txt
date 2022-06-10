@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=8X4u9sca3Io
+ssh-keygen -t ed25519 -C leotheasianlion@gmail.com
+
+

@@ -1,5 +1,9 @@
 https://www.reddit.com/r/EndeavourOS/comments/sil1jg/gnome_version_average_users_to_do_list_after/
 
+VIM:
+yay -S gvim
+
+
 # bluetooth install
 kde-plasma friendly: https://linuxhint.com/bluetooth_arch_linux/ 
 
