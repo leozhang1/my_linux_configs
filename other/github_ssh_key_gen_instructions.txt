@@ -1,4 +1,20 @@
 https://www.youtube.com/watch?v=8X4u9sca3Io
+
+generate ssh key:
 ssh-keygen -t ed25519 -C leotheasianlion@gmail.com
 
+to check ssh agent, type: eval "$(ssh-agent -s)"
+
+create file if doesn't exist already "touch ~/.ssh/config"
+
+add private key to ssh agent (inside that config):
+Host *
+ AddKeysToAgent yes
+ IdentityFile ~/.ssh/id_ed25519
+
+run: ssh-add ~/.ssh/id_ed25519
+
+add contents of "cat ~/.ssh/id_ed25519.pub" to github ssh key
+
+run "ssh -T git@github.com"
 
