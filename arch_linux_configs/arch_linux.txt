@@ -5,7 +5,9 @@ yay -S gvim
 
 
 # bluetooth install
-kde-plasma friendly: https://linuxhint.com/bluetooth_arch_linux/ 
+yay -S bluedevil
+kde-plasma friendly: https://linuxhint.com/bluetooth_arch_linux/
+https://forum.endeavouros.com/t/so-why-doesnt-bluedevil-install-with-kde-plasma/26787/5 
 
 https://discovery.endeavouros.com/bluetooth/bluetooth/2021/03/
 sudo pacman -S --needed bluez bluez-utils
@@ -50,3 +52,14 @@ https://gnunn1.github.io/tilix-web/manual/vteconfig/
 power management for kde plasma:
 https://superuser.com/questions/1531050/no-brightness-control-in-kde
 yay -S powerdevil
+
+miniconda:
+yay -S miniconda3
+
+flutter:
+I recommend installing flutter from their website rather than from AUR
+https://docs.flutter.dev/get-started/install/linux
+Then find the bin folder inside the folder that was extracted from the tar file and add it to your env path (i.e. in my case, it is: export PATH="$PATH:/home/leo_zhang/flutter/bin/")
+
+bootable usb:
+yay -S popsicle
