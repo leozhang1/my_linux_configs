@@ -63,3 +63,10 @@ Then find the bin folder inside the folder that was extracted from the tar file 
 
 bootable usb:
 yay -S popsicle
+
+mono framwework:
+yay -S mono
+
+.Net framework:
+yay -S dotnet-runtime dotnet-sdk
+
