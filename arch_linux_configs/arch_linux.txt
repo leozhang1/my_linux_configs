@@ -70,3 +70,16 @@ yay -S mono
 .Net framework:
 yay -S dotnet-runtime dotnet-sdk
 
+kde plasma shortcuts pkg:
+yay -S krunner
+
+
+simplified chinese input:
+
+font: yay -S adobe-source-han-sans-cn-fonts
+yay -S adobe-source-han-serif-cn-fonts
+
+input framework: https://wiki.archlinux.org/title/IBus
+
+input method: yay -S ibus-pinyin
+
