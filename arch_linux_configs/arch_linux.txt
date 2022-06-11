@@ -70,9 +70,23 @@ yay -S mono
 .Net framework:
 yay -S dotnet-runtime dotnet-sdk
 
+https://frontpagelinux.com/tutorials/17-kde-plasma-features-that-you-didnt-know-about/
+
+kde-plasma DE install:
+# minimalist
+yay -S plasma
+# more pre-installs
+yay -S plasma-desktop
+
+kde graphical login:
+yay -S sddm
+sudo systemctl enable --now sddm.service
+
 kde plasma shortcuts pkg:
 yay -S krunner
 
+kde plasma addons:
+yay -S kdeplasma-addons
 
 simplified chinese input:
 
@@ -80,6 +94,10 @@ font: yay -S adobe-source-han-sans-cn-fonts
 yay -S adobe-source-han-serif-cn-fonts
 
 input framework: https://wiki.archlinux.org/title/IBus
-
 input method: yay -S ibus-pinyin
+https://www.youtube.com/watch?v=WDoyOSRPEtc
+
+
+
+
 
