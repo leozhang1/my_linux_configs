@@ -3,13 +3,13 @@ gromit-mpx
 postman
 discord
 chrome
-vscode
+visual-studio-code-bin
 github-desktop
 spotify
 droidcam
 timeshift
 libreoffice-fresh
 zoom
-xppentablet
+xp-pen-tablet
 unityhub
 
