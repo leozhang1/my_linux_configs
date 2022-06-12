@@ -6,4 +6,3 @@ alias ZOOM='RUN ZOOM SCRIPT TO LOG IN TO CLASS'
 alias SHELLDIR='cd [PATH_TO_SHELL_SCRIPTS]'
 alias web_auto='~/miniconda3/envs/web_auto/bin/python'
 alias BG='[EXECUTE_SHELL_SCRIPT] [PATH_TO_ARCHIVED_PICS]$(ls [PATH_TO_ARCHIVED_PICS] | sort -V | tail -n 1)'
-

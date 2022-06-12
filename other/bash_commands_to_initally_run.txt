@@ -1,0 +1,10 @@
+echo 'set completion-ignore-case On' | sudo tee -a /etc/inputrc
+
+how to add sudoers in linux:
+https://www.youtube.com/watch?v=WBgkuGQkwzk
+
+type su -
+type vi /etc/sudoers
+then type in your_username ALL=(ALL:ALL) ALL
+then save the file
+then logout of root and now your current username should have superuser privileges
