@@ -97,7 +97,8 @@ input framework: https://wiki.archlinux.org/title/IBus
 input method: yay -S ibus-pinyin
 https://www.youtube.com/watch?v=WDoyOSRPEtc
 
-
+txt or shell file text editor:
+yay -S gedit
 
 
 
