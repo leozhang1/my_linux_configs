@@ -33,6 +33,6 @@
 # * * * * * [insert command here] 
 # 0 10-22/12 * * *
 
-0 10-22/12 * * * /usr/bin/bash /home/leo_zhang/Documents/shell_scripts/cron_10_22.sh
-0 9-17 * * * /usr/bin/bash /home/leo_zhang/Documents/shell_scripts/cron_9-17.sh
+0 10-22/12 * * * /home/leo_zhang/Documents/GitHub/my_linux_configs/cron_shell_scripts/cron_10_22.sh
+0 9-17 * * * /home/leo_zhang/Documents/GitHub/my_linux_configs/cron_shell_scripts/cron_9-17.sh
 
