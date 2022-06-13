@@ -2,10 +2,14 @@ https://www.reddit.com/r/EndeavourOS/comments/sil1jg/gnome_version_average_users
 
 VIM:
 yay -S gvim
+https://vim.fandom.com/wiki/Copy,_cut_and_paste
 
 
 # bluetooth install
 yay -S bluedevil
+sudo systemctl enable bluetooth
+sudo systemctl start bluetooth
+sudo vim /etc/bluetoooth/main.conf and go all the way down and change autoenable = true
 kde-plasma friendly: https://linuxhint.com/bluetooth_arch_linux/
 https://forum.endeavouros.com/t/so-why-doesnt-bluedevil-install-with-kde-plasma/26787/5 
 

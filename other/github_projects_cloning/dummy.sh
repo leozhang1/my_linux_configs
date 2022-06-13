@@ -21,7 +21,7 @@ git clone git@github.com:leozhang1/PongGame.git && \
 git clone git@github.com:leozhang1/practice_interview_problems.git && \
 git clone git@github.com:leozhang1/summer_2022_class.git && \
 git clone git@github.com:leozhang1/tdr_bot.git && \
-git clone git@github.com:leozhang1/TruistCreditCardManager.git
-git clone git@github.com:leozhang1/Zoom-Automation-Python.git && \
+git clone git@github.com:leozhang1/TruistCreditCardManager.git && \
+git clone git@github.com:leozhang1/Zoom-Automation-Python.git
 
 
