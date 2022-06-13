@@ -4,19 +4,27 @@ VIM:
 yay -S gvim
 https://vim.fandom.com/wiki/Copy,_cut_and_paste
 
+Screenshots:
+yay -S spectacle
+https://www.archlinuxuser.com/2017/09/take-screenshot-on-plasmakde-desktop-in.html
 
 # bluetooth install
-yay -S bluedevil
-sudo systemctl enable bluetooth
-sudo systemctl start bluetooth
-sudo vim /etc/bluetoooth/main.conf and go all the way down and change autoenable = true
-kde-plasma friendly: https://linuxhint.com/bluetooth_arch_linux/
 https://forum.endeavouros.com/t/so-why-doesnt-bluedevil-install-with-kde-plasma/26787/5 
+https://discovery.endeavouros.com/bluetooth/bluetooth/2021/03/yay -S bluedevil
+kde-plasma friendly: https://linuxhint.com/bluetooth_arch_linux/
+sudo systemctl X bluetooth.service, where X can be enable, start, restart, stop, disable
+sudo vim /etc/bluetoooth/main.conf and go all the way down and change autoenable = true
+if using something like airpods, change ControllerMode=bredr
 
-https://discovery.endeavouros.com/bluetooth/bluetooth/2021/03/
-sudo pacman -S --needed bluez bluez-utils
-sudo systemctl enable bluetooth
-sudo systemctl enable --now bluetooth
+
+yay -S bluez bluez-utils
+if using pulseaudio, then instead type yay -S bluez bluez-utils pulseaudio-bluetooth
+
+removing btusb and reloading it:
+sudo rmmod btusb
+sudo modprobe btusb
+
+
 
 endeavour os nice-to-haves:
 https://www.youtube.com/watch?v=StHVU-Zvacs&t=321s
@@ -37,6 +45,13 @@ language input:
 https://slmeng.medium.com/how-to-install-chinese-fonts-and-input-method-in-arch-linux-18b68d2817e7
 https://www.youtube.com/watch?v=a1J0Z9j4YHU
 https://www.youtube.com/watch?v=poXvZt9iBV0
+yay -S ibus ibus-pinyin ibus-googlepinyin ibus-libpinyin
+
+simplified chinese input fonts:
+yay -S adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts
+
+input framework: https://wiki.archlinux.org/title/IBus
+https://www.youtube.com/watch?v=WDoyOSRPEtc
 
 extensions:
 Dash to Dock for COSMIC
@@ -46,7 +61,7 @@ for pop_shell tiling manager:
 yay -S gnome-shell-extension-pop-shell-git
 
 5 linux terminal apps you need to have:
-https://www.youtube.com/watch?v=E8Ww39z_28A
+https://www.youtube.com/watch?v=E7Ww38z_27A
 
 installing a customizable terminal:
 yay -S tilix
@@ -107,14 +122,8 @@ yay -S krunner
 kde plasma addons:
 yay -S kdeplasma-addons
 
-simplified chinese input:
-
-font: yay -S adobe-source-han-sans-cn-fonts
-yay -S adobe-source-han-serif-cn-fonts
-
-input framework: https://wiki.archlinux.org/title/IBus
-input method: yay -S ibus-pinyin
-https://www.youtube.com/watch?v=WDoyOSRPEtc
+kde audio:
+yay -S plasma-pa
 
 txt or shell file text editor:
 yay -S gedit
