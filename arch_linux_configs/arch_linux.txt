@@ -128,5 +128,7 @@ yay -S plasma-pa
 txt or shell file text editor:
 yay -S gedit
 
-
+kde software center:
+plasma-discover --listbackends
+one of the required packages is needed is packagekit-qt5 
 
