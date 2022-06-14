@@ -1,5 +1,7 @@
 https://www.reddit.com/r/EndeavourOS/comments/sil1jg/gnome_version_average_users_to_do_list_after/
 
+MAKE SURE to type "yay -Syu" for a full system upgrade before installing any of these packages!
+
 VIM:
 yay -S gvim
 https://vim.fandom.com/wiki/Copy,_cut_and_paste
