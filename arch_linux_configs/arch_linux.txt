@@ -81,6 +81,14 @@ I recommend installing flutter from their website rather than from AUR
 https://docs.flutter.dev/get-started/install/linux
 Then find the bin folder inside the folder that was extracted from the tar file and add it to your env path (i.e. in my case, it is: export PATH="$PATH:/home/leo_zhang/flutter/bin/")
 
+tar -xvf [flutter_tar_file]
+# move to your home directory (or where ever you want)
+mv flutter ~
+# once you've added flutter to your path (for example: export PATH="$PATH:/home/leo_zhang/flutter/bin/"), save and get out .bashrc and type:
+source .bashrc
+# now if you type "which flutter", you should see the terminal recognizing it now.
+
+
 bootable usb:
 yay -S popsicle
 
