@@ -136,6 +136,10 @@ and enable & start if needed:
 systemctl enable NetworkManager.service
 systemctl start NetworkManager.service
 
+kde task manager:
+yay -S ksysguard is one option
+another option is yay -S plasma-meta
+You should not need both (just pick one to save space)
 
 CRON:
 yay -S cronie
