@@ -9,6 +9,7 @@ generaldb
 getdailypic
 githubautomation
 leozhang(personal website)
+Journal
 my_linux_configs
 nasa_daily_pic_collection
 news scraper

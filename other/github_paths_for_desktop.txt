@@ -9,6 +9,7 @@
 /home/leo_zhang/Documents/GitHub/GetDailyPic
 /home/leo_zhang/Documents/GitHub/GithubAutomation
 /home/leo_zhang/Documents/GitHub/important_docs
+/home/leo_zhang/Documents/GitHub/Journal
 /home/leo_zhang/Documents/GitHub/LeoZhang
 /home/leo_zhang/Documents/GitHub/my_linux_configs
 /home/leo_zhang/Documents/GitHub/NewsScraper

@@ -12,6 +12,7 @@ git clone git@github.com:leozhang1/GetDailyPic.git && \
 git clone git@github.com:leozhang1/GithubAutomation.git  && \
 git clone git@github.com:leozhang1/LeoZhang.git && \
 # git clone git@github.com:leozhang1/my_linux_configs.git && \
+git clone git@github.com:leozhang1/Journal.git && \
 git clone git@github.com:leozhang1/nasa_daily_pic_collection.git  && \
 git clone git@github.com:leozhang1/NewsScraper.git && \
 git clone git@github.com:leozhang1/okcupidbot.git && \
