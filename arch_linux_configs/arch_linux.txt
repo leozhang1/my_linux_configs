@@ -1,6 +1,4 @@
-PLEASE MAKE SURE YOU TYPE "yay -Syu" (full system upgrade)  before installing packages.
-
-MAKE SURE to type "yay -Syu" for a full system upgrade before installing any of these packages!
+PLEASE MAKE SURE to type "yay -Syu" for a full system upgrade before installing any of these packages!
 
 VIM:
 yay -S gvim
