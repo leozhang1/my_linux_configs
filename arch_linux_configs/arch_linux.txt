@@ -132,8 +132,20 @@ kde software center:
 plasma-discover --listbackends
 one of the required packages is needed is packagekit-qt5 
 
+kde music player
+yay -S elisa
+
+kde network manager:
+yay -S plasma-nm
+Then check status with systemctl status NetworkManager.service
+and enable & start if needed:
+systemctl enable NetworkManager.service
+systemctl start NetworkManager.service
+
+
 CRON:
 yay -S cronie
 sudo systemctl enable cronie.service --now
 if you want vim and it isn't linked to the crontab by default, then type sudo ln -s /usr/bin/vim /usr/bin/vi
+
 
