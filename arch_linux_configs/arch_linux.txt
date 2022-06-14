@@ -1,4 +1,4 @@
-https://www.reddit.com/r/EndeavourOS/comments/sil1jg/gnome_version_average_users_to_do_list_after/
+PLEASE MAKE SURE YOU TYPE "yay -Syu" (full system upgrade)  before installing packages.
 
 VIM:
 yay -S gvim
@@ -9,8 +9,7 @@ yay -S spectacle
 https://www.archlinuxuser.com/2017/09/take-screenshot-on-plasmakde-desktop-in.html
 
 # bluetooth install
-https://forum.endeavouros.com/t/so-why-doesnt-bluedevil-install-with-kde-plasma/26787/5 
-https://discovery.endeavouros.com/bluetooth/bluetooth/2021/03/yay -S bluedevil
+
 kde-plasma friendly: https://linuxhint.com/bluetooth_arch_linux/
 sudo systemctl X bluetooth.service, where X can be enable, start, restart, stop, disable
 sudo vim /etc/bluetoooth/main.conf and go all the way down and change autoenable = true
@@ -24,11 +23,6 @@ removing btusb and reloading it:
 sudo rmmod btusb
 sudo modprobe btusb
 
-
-
-endeavour os nice-to-haves:
-https://www.youtube.com/watch?v=StHVU-Zvacs&t=321s
-https://www.youtube.com/watch?v=8ORIVRKZnwQ
 
 vs code:
 https://linuxhint.com/install_visual_studio_code_arch_linux/
@@ -53,19 +47,11 @@ yay -S adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts
 input framework: https://wiki.archlinux.org/title/IBus
 https://www.youtube.com/watch?v=WDoyOSRPEtc
 
-extensions:
-Dash to Dock for COSMIC
-Desktop Icons NG (DING)
-
-for pop_shell tiling manager:
-yay -S gnome-shell-extension-pop-shell-git
-
 5 linux terminal apps you need to have:
 https://www.youtube.com/watch?v=E7Ww38z_27A
 
 installing a customizable terminal:
 yay -S tilix
-https://forum.endeavouros.com/t/im-not-sure-how-to-enable-transparency-on-gnome-terminal/22575
 https://gnunn1.github.io/tilix-web/manual/vteconfig/
 
 power management for kde plasma:
