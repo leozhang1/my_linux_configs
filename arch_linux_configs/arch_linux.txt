@@ -146,4 +146,22 @@ yay -S cronie
 sudo systemctl enable cronie.service --now
 if you want vim and it isn't linked to the crontab by default, then type sudo ln -s /usr/bin/vim /usr/bin/vi
 
+NodeJs:
+yay -S nodejs npm
+
+tree:
+yay -S tree
+
+list all linux users:
+https://linuxhandbook.com/linux-list-users/
+compgen -u
+
+postgresql:
+yay -S postgresql
+switch to postgres user in terminal with "sudo -u postgres -i"
+type initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'
+then exit back to your own username
+sudo systemctl enable postgresql.service
+sudo systemctl start postgresql.service
+now you can go back to postgres user with "sudo -u postgres -i" and create your databases
 
