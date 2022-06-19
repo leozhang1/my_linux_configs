@@ -6,5 +6,6 @@ alias ZOOM='/home/leo_zhang/.conda/envs/web_auto/bin/python /home/leo_zhang/Docu
 alias web_auto='/home/leo_zhang/.conda/envs/web_auto/bin/python'
 alias BG='[EXECUTE_SHELL_SCRIPT] [PATH_TO_ARCHIVED_PICS]$(ls [PATH_TO_ARCHIVED_PICS] | sort -V | tail -n 1)'
 alias NOTES='vim /home/leo_zhang/Documents/GitHub/my_linux_configs/arch_linux_configs/arch_linux.txt'
+alias OPEN='dolphin . &'
 
 
