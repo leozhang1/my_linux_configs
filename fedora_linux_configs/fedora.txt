@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=RrRpXs2pkzg&ab_channel=TechHut
+https://fedoraproject.org/wiki/Vim
+https://serverfault.com/questions/253313/ssh-returns-bad-owner-or-permissions-on-ssh-config
+

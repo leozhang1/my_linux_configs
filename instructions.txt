@@ -1,0 +1,6 @@
+bashrc stuff
+run initial bash commands
+create github ssh
+install desired apps
+configure python & nodejs
+clone desired projects from github
