@@ -1,15 +1,2 @@
-gthumb
-gromit-mpx
-postman
-discord
-chrome
-visual-studio-code-bin
-github-desktop
-spotify
-droidcam
-timeshift
-libreoffice-fresh
-zoom
-xp-pen-tablet
-unityhub
-
+yay -Syu --needed gthumb gromit-mpx postman discord google-chrome visual-studio-code-bin github-desktop
+yay -S spotify && yay -S droidcam && yay -S timeshift && yay -S libreoffice-fresh && yay -S zoom && yay -S xp-pen-tablet && yay -S unityhub && yay -S masterpdfeditor-free && yay -S feh && yay -S tree && yay -S cronie && yay -S plasma-meta && yay -S spectacle wireplumber

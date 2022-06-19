@@ -145,6 +145,8 @@ CRON:
 yay -S cronie
 sudo systemctl enable cronie.service --now
 if you want vim and it isn't linked to the crontab by default, then type sudo ln -s /usr/bin/vim /usr/bin/vi
+OR
+type 'export VISUAL="vim"' inside .bashrc
 
 NodeJs:
 yay -S nodejs npm
