@@ -1,24 +1,6 @@
-amzn price tracker tool
-arhw1
-bmbl_bot
-dronefun
-easy-apply-linkedin
-file management tool
-flightscraper
-generaldb
-getdailypic
-githubautomation
-leozhang(personal website)
-Journal
-my_linux_configs
-nasa_daily_pic_collection
-news scraper
-okc_bot
-password_manager_nodejs
-personal_portfolio_flutter_web
-pong_game
-practice_interview_problems
-summer_2022_class
-tdr_bot
-truist_creditcard_manager
-zoom-automation-python
+AmazonPriceTrackerTool  FileManagementTool  important_docs    NewsScraper                  practice_interview_problems  Zoom-Automation-Python
+ARHW1                   FlightScraper       Journal           okcupidbot                   summer_2022_class
+bmbl_bot                GeneralDB           LeoZhang          PasswordManagerNodeJs        TaxLienScraper
+DroneFun                GetDailyPic         music_collection  PersonalPortfolioFlutterWeb  tdr_bot
+easy-apply-linkedin     GithubAutomation    my_linux_configs  PongGame                     TruistCreditCardManager
+
