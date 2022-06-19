@@ -18,4 +18,5 @@ then quit
 # format the partition
 sudo mkfs.vfat -n 'SANDISK' /dev/sdb1
 
+mkfs.vfat: Partitions or virtual mappings on device '/dev/sdb', not making filesystem (use -I to override)
 
