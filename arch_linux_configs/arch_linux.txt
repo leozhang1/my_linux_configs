@@ -165,3 +165,20 @@ sudo systemctl enable postgresql.service
 sudo systemctl start postgresql.service
 now you can go back to postgres user with "sudo -u postgres -i" and create your databases
 
+view an image via terminal:
+install feh (yay -S feh)
+and type "feh [image_file]"
+
+kde calculator:
+yay -S kcalc
+
+free pdf editor:
+yay -S masterpdfeditor-free
+
+
+
+
+
+
+
+

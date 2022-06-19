@@ -1,0 +1,21 @@
+
+install python and pylance extensions
+
+"settings": {
+	"python.analysis.typeCheckingMode": "strict", # 3 types: off, basic, strict
+	"window.zoomLevel": 3,
+	"editor.formatOnSaveMode": "file",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
+	"python.linting.pylintEnabled": true,
+	"python.linting.enabled": true,
+	"python.formatting.provider": "black",
+	
+	
+
+
+
+
+}
