@@ -61,7 +61,9 @@ yay -S powerdevil
 miniconda:
 https://towardsdatascience.com/real-world-website-visitor-forecast-with-facebook-prophet-a-complete-tutorial-8d135b848c5e
 https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf
-yay -S miniconda3
+
+yay -S miniconda3 && /home/leo_zhang/Documents/GitHub/my_linux_configs/python_configs/envs/web_auto
+
 If your shell is Bash or a Bourne variant, enable conda for the current user with
 
     $ echo "[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh" >> ~/.bashrc
@@ -72,9 +74,10 @@ or, for all users, enable conda with
 
 source .bashrc
 
-conda create -n web_auto python=3.10
-conda create -n time_series python=3.8
+conda create -n web_auto python=3.9 && yay -S --needed python-pip && conda activate web_auto && pip install -r /home/leo_zhang/Documents/GitHub/my_linux_configs/python_configs/envs/web_auto/web_auto.txt
+conda create -n time_series python=3.8 && conda activate time_series && pip install -r /home/leo_zhang/Documents/GitHub/my_linux_configs/python_configs/envs/time_series/time_series.txt
 https://facebook.github.io/prophet/docs/installation.html#python
+conda install gcc && conda install -c conda-forge prophet
 
 flutter:
 I recommend installing flutter from their website rather than from AUR
@@ -177,8 +180,10 @@ yay -S kcalc
 free pdf editor:
 yay -S masterpdfeditor-free
 
-
-
+record audio:
+yay -S audio-recorder
+OR
+yay -S gnome-sound-recorder
 
 
 
