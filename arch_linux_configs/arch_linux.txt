@@ -20,8 +20,7 @@ yay -S bluez bluez-utils
 if using pulseaudio, then instead type yay -S bluez bluez-utils pulseaudio-bluetooth
 
 removing btusb and reloading it:
-sudo rmmod btusb
-sudo modprobe btusb
+sudo rmmod btusb && sudo modprobe btusb
 
 
 vs code:
@@ -46,6 +45,26 @@ yay -S adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts
 
 input framework: https://wiki.archlinux.org/title/IBus
 https://www.youtube.com/watch?v=WDoyOSRPEtc
+
+
+fcitx if not using ibus:
+https://www.youtube.com/watch?v=8XDmLr6wb4M
+yay -S fcitx5-im
+
+yay -S fcitx5 fcitx5-qt fcitx5-gtk fcitx5-chinese-addons
+then add these three lines to .bash_profile:
+XMODIFIERS=@im=fcitx
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+
+then install an engine package such as fcitx5-configtool:
+yay -S fcitx5-configtool
+
+install some fonts:
+yay -S noto-fonts noto-fonts-cjk
+
+uncomment chinese in the locale.gen file
+
 
 5 linux terminal apps you need to have:
 https://www.youtube.com/watch?v=E7Ww38z_27A
