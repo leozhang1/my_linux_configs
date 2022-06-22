@@ -1,0 +1,4 @@
+
+add these key/val pairs into the vs code settings.json if not already in there:
+"journal.base": "/home/leo_zhang/Documents/GitHub/Journal",
+"python.defaultInterpreterPath": "/home/leo_zhang/.conda/envs/web_auto/bin/python",
