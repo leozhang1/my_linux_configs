@@ -131,7 +131,9 @@ then flutter config --android-sdk $ANDROID_SDK_ROOT
 Now I could install the emulator I want with that command above in my post and I can list the emulators if I'm not sure what I want with sdkmanager --list
 
 
-
+multi-pointer extension for gromit-mpx:
+https://www.youtube.com/watch?v=cDRLxoH4G4g
+https://github.com/bk138/gromit-mpx
 
 bootable usb:
 yay -S popsicle
