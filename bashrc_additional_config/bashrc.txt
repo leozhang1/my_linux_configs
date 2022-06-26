@@ -4,10 +4,23 @@ alias dir='ls'
 alias GITHUB='cd /home/leo_zhang/Documents/GitHub/'
 alias ZOOM='/home/leo_zhang/.conda/envs/web_auto/bin/python /home/leo_zhang/Documents/GitHub/Zoom-Automation-Python/zoom_lecture_automations.py'
 alias web_auto='/home/leo_zhang/.conda/envs/web_auto/bin/python'
-alias BG='[EXECUTE_SHELL_SCRIPT] [PATH_TO_ARCHIVED_PICS]$(ls [PATH_TO_ARCHIVED_PICS] | sort -V | tail -n 1)'
 alias NOTES='vim /home/leo_zhang/Documents/GitHub/my_linux_configs/arch_linux_configs/arch_linux.txt'
 alias OPEN='dolphin . &'
 alias LIST='crontab -l'
 alias EDIT='crontab -e'
 alias JOURNAL='code /home/leo_zhang/Documents/GitHub/Journal/'
+alias rm='rm -i'
+
+
+export VISUAL="vim"
+export PATH="$PATH:/home/leo_zhang/.flutter_dir/flutter/bin/"
+export JAVA_HOME='/usr/lib/jvm/java-8-openjdk'
+#export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
+export ANDROID_HOME='/opt/android-sdk'
+export PATH=$JAVA_HOME/bin:$PATH
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools/
+export PATH=$PATH:$ANDROID_SDK_ROOT/tools/bin/
+export PATH=$PATH:$ANDROID_SDK_ROOT/tools/emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/tools/
+#fcitx5 -d &
 

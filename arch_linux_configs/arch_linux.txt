@@ -104,11 +104,33 @@ https://docs.flutter.dev/get-started/install/linux
 Then find the bin folder inside the folder that was extracted from the tar file and add it to your env path (i.e. in my case, it is: export PATH="$PATH:/home/leo_zhang/flutter/bin/")
 
 tar -xvf [flutter_tar_file]
-# move to your home directory (or where ever you want)
-mv flutter ~
-# once you've added flutter to your path (for example: export PATH="$PATH:/home/leo_zhang/flutter/bin/"), save and get out .bashrc and type:
+mkdir ~/.flutter_dir
+# move to this hidden folder in your home directory (or where ever you want)
+mv flutter ~/.flutter_dir
+# once you've added flutter to your path (for example: export PATH="$PATH:/home/leo_zhang/.flutter_dir/flutter/bin/"), save and get out .bashrc and type:
 source .bashrc
 # now if you type "which flutter", you should see the terminal recognizing it now.
+
+On Arch Linux, the executive file of the proprietary version of google chrome has the name google-chrome-stable, but flutter tries to find exactly google-chrome. Therefore, setting the environment variable for /usr/bin/google-chrome-stable has no effect.
+Therefore, to solve the problem, you need to create a link to google-chrome-stable with the name google-chrome using the command sudo ln -s /usr/bin/google-chrome-stable /usr/local/bin/google-chrome
+
+linux desktop toolchain:
+yay -S --needed clang cmake ninja pkgconf gtk3
+
+android-sdk setup:
+I found this post: https://stackoverflow.com/questions/55143884/not-able-to-execute-sdk-manager-commands-from-command-line-android
+
+And so I had to comment or delete this line out: export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'from my .bashrc
+
+all I needed to install from aur was android-sdk-cmdline-tools-latest (pick jdk 8 instead of the default openjdk (not sure if the default works but if it does, then great) and android-sdk-platform-tools and android-sdk-build-tools and android-platform
+
+then accept licenses with flutter doctor --android-licenses
+
+then flutter config --android-sdk $ANDROID_SDK_ROOT
+
+Now I could install the emulator I want with that command above in my post and I can list the emulators if I'm not sure what I want with sdkmanager --list
+
+
 
 
 bootable usb:
@@ -205,6 +227,8 @@ OR
 yay -S gnome-sound-recorder
 
 
+record screen:
+yay -S simplescreenrecorder
 
 
 
