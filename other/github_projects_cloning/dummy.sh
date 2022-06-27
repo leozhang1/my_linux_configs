@@ -1,6 +1,5 @@
 cd /home/leo_zhang/Documents/GitHub && \
 git clone git@github.com:leozhang1/AmazonPriceTrackerTool.git && \
-git clone git@github.com:leozhang1/ARHW1.git && \
 git clone git@github.com:leozhang1/bmbl_bot.git && \
 git clone git@github.com:leozhang1/DroneFun.git && \
 git clone git@github.com:leozhang1/easy-apply-linkedin.git  && \
@@ -23,6 +22,7 @@ git clone git@github.com:leozhang1/practice_interview_problems.git && \
 git clone git@github.com:leozhang1/summer_2022_class.git && \
 git clone git@github.com:leozhang1/TaxLienScraper.git && \
 git clone git@github.com:leozhang1/tdr_bot.git && \
+git clone git@github.com:leozhang1/Tic_Tac_Toe.git && \
 git clone git@github.com:leozhang1/TruistCreditCardManager.git && \
 git clone git@github.com:leozhang1/Zoom-Automation-Python.git
 
