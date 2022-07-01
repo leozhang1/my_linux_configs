@@ -233,4 +233,8 @@ record screen:
 yay -S simplescreenrecorder
 
 
+mp3 player with different speeds available:
+yay -S playitslowly
+
+
 
