@@ -217,8 +217,8 @@ view an image via terminal:
 install feh (yay -S feh)
 and type "feh [image_file]"
 
-kde calculator:
-yay -S kcalc
+calculator:
+yay -S speedcrunch
 
 free pdf editor:
 yay -S masterpdfeditor-free
@@ -235,6 +235,12 @@ yay -S simplescreenrecorder
 
 mp3 player with different speeds available:
 yay -S playitslowly
+
+kde calendar:
+yay -S kalendar
+
+terminal reminder:
+yay -S reminder tk tcllib
 
 
 
