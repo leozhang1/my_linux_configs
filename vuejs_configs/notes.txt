@@ -1,0 +1,19 @@
+https://cli.vuejs.org/#getting-started
+
+manually select features
+check typecript
+version 3.x
+dont use class style component syntax
+use babel alongside typescript
+use basic linter
+lint on save
+place config for babel in dedicated config files
+use npm
+dont save preset for future projects
+
+delete logo.png from assets/
+delete helloworld.vue from components/
+
+attribute-binding
+https://vuejs.org/api/built-in-directives.html#v-show
+
