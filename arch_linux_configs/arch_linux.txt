@@ -245,10 +245,34 @@ yay -S reminder tk tcllib
 10 Best KDE Plasma Widgets and Extensions | Linux:
 https://www.youtube.com/watch?v=3SHMkw_QsTA
 
+Get events calendar, and launchpad widget from the kde store
+
 kde theme to get:
 "sweet kde" theme
 https://www.youtube.com/watch?v=Cjic2IB8Wx0
 
 if audio stops detecting input/output,
 then try to delete the ~/.config/pulse/ directory and then reboot computer
+
+add kdeconnect to firewall permanently:
+yay -S ufw
+
+follow instructions from this link
+https://wiki.archlinux.org/title/Uncomplicated_Firewall
+i.e. make sure sudo systemctl status iptables.service and that the status is disabled
+sudo ufw enable
+sudo systemctl enable ufw.service
+sudo systemctl start ufw.service
+
+heroku cli:
+yay -S heroku-cli
+
+korganizer:
+yay -S korganizer
+
+bluemail
+yay -S bluemail
+
+
+
 

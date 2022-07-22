@@ -1,0 +1,23 @@
+faang companies:
+facebook
+apple
+amazon
+google
+microsoft
+
+
+deloitte
+l3 harris
+amtrack
+
+
+
+
+
+recently applied:
+https://vuejobs.com/jobs/2157-front-end-developer-with-vue-js
+https://vuejobs.com/jobs/2159-vue-js-front-end-software-engineer
+
+
+
+

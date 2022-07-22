@@ -1,0 +1,12 @@
+emulator -avd flutter_emulator
+https://stackoverflow.com/questions/2214377/how-to-get-serial-number-or-id-of-android-emulator-after-it-runs
+adb devices
+serial number will be emulator-5554 in my case
+emulator -list-avds
+
+cold boot emulator:
+https://stackoverflow.com/questions/66362274/how-to-cold-boot-emulator-using-commend-linecmd
+cd C:\Users\<your_user_name>\AppData\Local\Android\Sdk\emulator
+emulator -list-avds
+emulator @<your_adb_name> -no-snapshot-load
+
